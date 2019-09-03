@@ -4,5 +4,6 @@ class Player
 public:
 	Player();
 	virtual ~Player();
+	virtual void makeAMove();
 };
 

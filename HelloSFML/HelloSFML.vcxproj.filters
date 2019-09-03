@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki nagłówkowe\Include">
+      <UniqueIdentifier>{c962434f-9d01-42e2-952c-2ba7b098f15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Sources">
+      <UniqueIdentifier>{a30e3e4f-dc93-4ca4-b72a-de82307e9dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Testcases">
+      <UniqueIdentifier>{b333ff1d-35f2-4529-938d-3ab00e83ea0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -22,30 +31,30 @@
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="ChessEngine.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>Pliki nagłówkowe\Include</Filter>
     </ClInclude>
     <ClInclude Include="HelloSFML.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>Pliki nagłówkowe\Include</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>Pliki nagłówkowe\Include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="HelloSFML.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="ChessEngine.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Pliki źródłowe\Sources</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\Sources</Filter>
     </ClCompile>
     <ClCompile Include="ChessEngineTest.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>Pliki źródłowe\Testcases</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

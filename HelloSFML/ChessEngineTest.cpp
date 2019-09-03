@@ -1,7 +1,8 @@
-#include "gtest/gtest.h"
-
-TEST(TestCaseName, TestName) 
-{
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
-}
+#include "stdafx.h"
+//#include "gtest/gtest.h"
+//
+//TEST(TestCaseName, TestName) 
+//{
+//  EXPECT_EQ(1, 1);
+//  EXPECT_TRUE(true);
+//}
